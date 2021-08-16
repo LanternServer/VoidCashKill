@@ -10,6 +10,7 @@ use pocketmine\plugin\PluginBase;
 
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerDeathEvent;
+use pocketmine\event\entity\EntityDamageEvent;
 
 use pocketmine\utils\TextFormat as C;
 
