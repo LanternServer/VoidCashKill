@@ -35,7 +35,7 @@ class VoidCashKill extends PluginBase implements Listener {
 		switch($cid){
 			  case EntityDamageEvent::CAUSE_VOID:
 				EconomyAPI::getInstance()->addMoney($this->KillPlayer, 250);
-				$this->getServer()->broadcastMessage($this->killPlayer . " killed " . $player->getName() . "Into the void");
+				$this->getServer()->broadcastMessage($this->killPlayer . " threw " . $player->getName() . "into the void");
 				return true;
        break;
 		}
