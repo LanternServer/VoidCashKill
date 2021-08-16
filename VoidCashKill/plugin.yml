@@ -1,6 +1,6 @@
 name: VoidCashKill
 main: AdminBuilder1\voidcashkill\voidcashkill
-description: A better way to moderatate your server
+description: Void kills, coded by AdminBuilder1 for LanternMC
 website: https://github.com/surveybuilderteams/VoidCashKill
 api: [3.22.0, 3.22.1]
 version: 1.0.1
